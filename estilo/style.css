@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background: url(../imagens/image-michael-jordan.png) center top no-repeat black;
+    background-size: cover;
+    height: 360px;
+}
+
+header h1:first-child{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.header-txt{
+    color: white;
+    width: 360px;
+    padding: auto;
+    padding-left: 200px;
+}
+
+.header-txt img{
+    padding: 50px 0px 20px 0px
+}
+
+main{
+    padding: 0px  180px;
+}
+
+.txt-main  p, h1{
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    
+
+.tenis-jordan{
+    border: 1px solid red;
+    width: 300px;
+    padding: 10px;
+}
