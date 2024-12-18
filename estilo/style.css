@@ -17,10 +17,11 @@ header{
 }
 
 header h1:first-child{
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 10px;
     text-align: center;
     background-color: white;
+    
 }
 
 .header-txt{
@@ -39,7 +40,6 @@ main{
 }
 
 .txt-main  p, h1{
-    border: 1px solid red;
     text-align: center;
     padding: 10px 0px;
 }
@@ -50,10 +50,23 @@ article{
     justify-content: space-around;
 }
 
-    
-
 .tenis-jordan{
-    border: 1px solid red;
-    width: 300px;
+    width: 280px;
     padding: 10px;
+    margin-bottom: 15px;
 }
+
+.tenis-jordan h1, p{
+    margin: 10px 0px;
+}
+
+.tenis-jordan p:nth-child(3){
+    color: #7ca2f4;
+}
+
+.tenis{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+

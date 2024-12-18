@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 860px) {
+
+    .header-txt{
+        margin: auto;
+        padding: 10px;
+    }
+
+    .tenis-jordan{
+        border: 1px solid red;
+
+    }
+
+    main{
+        padding: 0;
+        border: 1px solid red;
+    }
+}
